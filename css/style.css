@@ -1,0 +1,18 @@
+* , ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100vh;
+    background-image: url(../images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position: top 250% left -50%;
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 250%  right -50%;
+}
